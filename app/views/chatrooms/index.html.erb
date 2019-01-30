@@ -1,6 +1,6 @@
 <h3 class="ui center aligned medium icon header">
   <i class="circular at inverted blue icon"></i>
-  Messager
+  Messenger
 </h3>
 
 <div class="ui column grid" style="margin-top: 1.5rem">
@@ -10,34 +10,7 @@
       <div class="content">
         <a class="ui blue ribbon label">Activity Feed</a>
         <div class="ui feed">
-          <div class="event">
-            <div class="content">
-              <div class="summary">
-                 <em>Elliot Fu</em>:
-              </div>
-            </div>
-          </div>
-          <div class="event">
-            <div class="content">
-              <div class="summary">
-                 <em>Stevie Feliciano</em>:
-              </div>
-            </div>
-          </div>
-          <div class="event">
-            <div class="content">
-              <div class="summary">
-                 <em>Helen Troy</em>:
-              </div>
-            </div>
-          </div>
-          <div class="event">
-            <div class="content">
-              <div class="summary">
-                 <em>Christian Rocha</em>: Test Message
-              </div>
-            </div>
-          </div>
+          <%= render "layouts/messages" %>
         </div>
       </div>
       <div class="extra content">
@@ -52,8 +25,7 @@
       </div>
     </div>
   </div>
-
-
+  
   <div class="four wide column">
     <div class="ui fluid raised card chatbox">
       <div class="content">
