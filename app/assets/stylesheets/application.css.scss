@@ -15,3 +15,12 @@
  */
  @import "semantic-ui";
  @import "semantic-ui/collections/menu";
+
+ .chatbox {
+   height: 450px;
+ }
+
+ .summary em {
+   font-size: 1.1em;
+   color: #2e77c4
+ }
